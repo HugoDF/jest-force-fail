@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "lint": "xo .",
+    "format": "xo . --fix"
+  },
+  "devDependencies": {
+    "xo": "latest"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "globals": ["expect","it"]
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jest-cli": "^24.9.0"
+  },
+  "name": "jest-force-fail",
+  "description": "Jest Explicitly/Force fail() a test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": ""
+}
