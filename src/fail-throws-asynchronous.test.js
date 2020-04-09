@@ -5,7 +5,7 @@ async function asyncThrowOrNot() {
 it('should throw if passed true', async () => {
   try {
     await asyncThrowOrNot(true);
-    throw new Error("didn't throw");
+    throw new Error('didn’t throw');
   } catch (error) {
     expect(error).toEqual(new Error('shouldThrow was true'));
   }

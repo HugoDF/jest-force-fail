@@ -5,7 +5,7 @@ function throwOrNot() {
 it('should throw if passed true', () => {
   try {
     throwOrNot(true);
-    throw new Error("didn't throw");
+    throw new Error('didn’t throw');
   } catch (error) {
     expect(error).toEqual(new Error('shouldThrow was true'));
   }
