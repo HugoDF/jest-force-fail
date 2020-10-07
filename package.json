@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "jest": "^26.5.0"
+    "jest": "^26.5.2"
   },
   "name": "jest-force-fail",
   "description": "Jest Explicitly/Force fail() a test",
